@@ -1,0 +1,152 @@
+@charset "UTF-8";
+/* Pour l'affichage de la page d'accueil */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f4f6f9;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #2c3e50;
+    text-align: center;
+}
+
+.highlight {
+    color: #3498db;
+}
+
+.subtitle {
+    text-align: center;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.user-card {
+    background-color: #ecf0f1;
+    padding: 15px;
+    border-radius: 5px;
+    border-left: 4px solid #3498db;
+}
+
+.user-card p {
+    margin: 5px 0;
+    color: #333;
+}
+
+/* Pour le bouton voir detail */
+.user-card button {
+    background-color: #3498db;
+    float:right;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.user-card button:hover {
+    background-color: rgb(0, 0, 128);
+}
+
+
+/* Pour la  partie insertion depuis formulaire */
+.form-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #2c3e50;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(0, 0, 128);
+}
+
+.nav-bar{
+	display: block;
+    margin-bottom: 20px;
+}
+
+.form-link1 {
+	float:left;
+    margin-bottom: 20px;
+}
+.form-link2 {
+    float: right;
+    margin-bottom: 20px;
+}
+
+
+.form-link a {
+    text-decoration: none;
+    background-color: #2980b9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.form-link a:hover {
+    background-color: rgb(0, 0, 128);
+}
+.error {
+    color: #e74c3c;
+    background-color: #fdecea;
+    padding: 10px;
+    border: 1px solid #e0b4b4;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
