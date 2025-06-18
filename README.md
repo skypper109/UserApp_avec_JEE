@@ -9,8 +9,6 @@ UserApp est une application web Java EE déployable sur un serveur Apache Tomcat
 - Java EE (Servlets, JSP)
 - Apache Tomcat (serveur d’exécution)
 - HTML/CSS + JavaScript
-- WAR Packaging
-- JDBC (si base de données intégrée)
 - Filtres de validation (UserInsertionFilter)
 
 ---
@@ -59,5 +57,5 @@ UserApp.war
 
 ## 📌 Auteurs & Contributeurs
 
-Développé par [TonNomIci]  
-Contact : [ton.email@example.com]
+Développé par [Ibrahim Sory Diallo]  
+Contact : [ibrahimsorydiallo204@gmail.fr]
